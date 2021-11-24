@@ -1,3 +1,5 @@
+import { TodoList } from "./TodoList";
+
 export const TodoApp = () => {
   return (
     <div>
@@ -5,6 +7,7 @@ export const TodoApp = () => {
       <button>
         <span>+</span>
       </button>
+      <TodoList />
     </div>
   );
 };
